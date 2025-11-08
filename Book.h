@@ -1,4 +1,5 @@
 #pragma once
+#include "Publisher.h"
 #include <string>
 
 // Enum to track if book can be taken out
@@ -26,4 +27,7 @@ struct Book
 	Status status = Status::Available;
 	int isbn;
 	Genre genre;
+	// nested struct
+	Publisher publisherInfo;
+	bool containsPublisher = false;
 };
