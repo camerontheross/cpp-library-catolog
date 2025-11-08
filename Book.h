@@ -8,14 +8,12 @@ enum class Status
 	CheckedOut
 };
 // Enum for book Genre
-enum Genre
+enum class Genre
 {
 	Fiction,
 	NonFiction,
 	Memoir,
-	Cooking,
-	History,
-	Childrens
+	History
 };
 
 // Boook struct
